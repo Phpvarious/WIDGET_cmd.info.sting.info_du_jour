@@ -163,10 +163,10 @@
             ///////// THEME
             if ('#themeJeedom#' == 1) {
               if (themeJeedom#id# == 'light') changeTheme#id#()
-              else changeTheme#id#(theme='Dark')
+              else changeTheme#id#('Dark')
             } else {
               if (modeJour == "Jour") changeTheme#id#()
-              else changeTheme#id#(theme='Dark')
+              else changeTheme#id#('Dark')
             }
             ///////// SAISONS
             cmd.querySelector('.saison_text#id#').innerHTML = 'Saison : <span>' + saison + '</span>'
